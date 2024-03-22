@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        homePage : "url('./src/assets/property/bunga3.jpeg')",
-        sambutan : "url('./src/assets/property/bunga2.jpeg')",
-        mempelai : "url('./src/assets/property/bunga5.jpeg')",
-        tanggal : "url('./src/assets/property/bunga6.jpeg')",
-        lokasi : "url('./src/assets/property/bunga4.png')",
-        gallery : "url('./src/assets/property/bunga8.jpeg')",
+        homePage : "url('/src/assets/property/bunga3.jpeg')",
+        sambutan : "url('/src/assets/property/bunga2.jpeg')",
+        mempelai : "url('/src/assets/property/bunga5.jpeg')",
+        tanggal : "url('/src/assets/property/bunga6.jpeg')",
+        lokasi : "url('/src/assets/property/bunga4.png')",
+        gallery : "url('/src/assets/property/bunga8.jpeg')",
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
