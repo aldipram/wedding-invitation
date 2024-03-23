@@ -4,11 +4,11 @@ import Maps from "../utils/Maps/Maps";
 
 const Lokasi = () => {
   return (
-    <section className="bg-gradient-to-r from-blue-100 to-blue-300">
+    <section className="bg-gradient-to-r from-[#ffd7af7a] to-[#965b208e]">
       <div className="max-w-[476px] mx-auto shadow-xl shadow-black">
-        <div data-aos="fade-in" data-aos-duration="1000" className="bg-lokasi h-screen bg-no-repeat bg-cover">
-          <div className="flex flex-col items-center p-5 h-screen backdrop-blur-sm">
-            <p data-aos="fade-up" data-aos-duration="1000" className="font-origin text-xl py-5">Lokasi/Maps</p>
+        <div data-aos="fade-in" data-aos-duration="1000" className="bg-background h-screen bg-no-repeat bg-cover bg-center">
+          <div className="flex flex-col items-center p-5 h-screen">
+            <p data-aos="fade-up" data-aos-duration="1000" className="font-origin text-xl py-5 text-primary">Lokasi/Maps</p>
             <div className="flex flex-col items-center gap-5">
                 <div data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000" className="w-full rounded-xl overflow-hidden">
                     <Maps />
@@ -20,7 +20,7 @@ const Lokasi = () => {
                         data-aos-duration="1000"
                         data-aos-delay="1000"
                     >
-                        <button className="font-poppins font-semibold text-white py-2 px-4 bg-[rgba(27,64,126,255)] rounded-md tracking-wider">
+                        <button className="font-poppins font-semibold text-white py-2 px-4 bg-primary rounded-md tracking-wider">
                         Lihat Peta
                         </button>
                     </a>

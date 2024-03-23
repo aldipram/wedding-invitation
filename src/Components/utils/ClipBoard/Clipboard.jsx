@@ -20,7 +20,7 @@ const Clipboard = () => {
     <div>
       <div className="bg-[#ffffff] p-5 rounded-xl">
         <p className="font-poppins pb-2">{address}</p>
-        <button onClick={copyToClipboard} className="bg-[rgba(27,64,126,255)] text-white font-semibold font-poppins py-2 px-4 rounded-md">
+        <button onClick={copyToClipboard} className="bg-primary text-white font-semibold font-poppins py-2 px-4 rounded-md">
           {copySuccess ? 'Disalin!' : 'Salin Alamat'}
         </button>
       </div>

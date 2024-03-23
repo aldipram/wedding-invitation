@@ -6,19 +6,21 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#865b2f',
+      },
       backgroundImage: {
-        homePage : "url('/src/assets/property/bunga3.jpeg')",
-        sambutan : "url('/src/assets/property/bunga2.jpeg')",
-        mempelai : "url('/src/assets/property/bunga5.jpeg')",
-        tanggal : "url('/src/assets/property/bunga6.jpeg')",
-        lokasi : "url('/src/assets/property/bunga4.png')",
-        gallery : "url('/src/assets/property/bunga8.jpeg')",
+        homePage : "url('/src/assets/property/homepage.jpeg')",
+        background : "url('/src/assets/property/sambutan.jpeg')",
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         latin: ['Send Flowers', 'cursive'],
         origin: ['Original Surfer', 'cursive'],
         amellinda: ['Amellinda', 'cursive'],
+        santorini: ['Santorini', 'cursive'],
+        playfair: ['Playfair Display', 'serif'],
+        trajan: ['Trajan Pro', 'serif'],
       }
     },
   },

@@ -6,3 +6,13 @@
     font-family: 'Amellinda';
     src: url(./font/amellinda-weddings.otf) format("truetype");
   }
+
+@font-face {
+  font-family: 'Santorini';
+  src: url(./font/Santorini.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Trajan Pro';
+  src: url(./font//TrajanPro-Regular.ttf) format("truetype");
+}
