@@ -8,7 +8,7 @@ import MarqueeText from "../utils/TeksBerjalan/TeksBerjalan";
 const HomePage = () => {
 
   const { isPlaying, togglePlay } = useContext(MusicContext);
-  const songTitle = "Ed Sheeran - Head ▹ Heels (Official Lyric Music).mp3";
+  const songTitle = "So This Is Love (feat. ConTejas).mp3";
   
   return (
     <section className="bg-gradient-to-r from-blue-100 to-blue-300">

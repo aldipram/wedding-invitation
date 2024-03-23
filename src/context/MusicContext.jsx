@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React, { createContext, useState, useRef, useEffect } from 'react';
-import music from '../assets/mp3/Ed Sheeran - Head ▹ Heels (Official Lyric Video).mp3';
+import music from '../assets/mp3/So This Is Love (feat. ConTejas).mp3';
 
 export const MusicContext = createContext();
 
