@@ -5,14 +5,14 @@ import { useContext } from "react";
 import { FaPause, FaPlay } from "react-icons/fa";
 import MarqueeText from "../utils/TeksBerjalan/TeksBerjalan";
 
+
 const HomePage = () => {
 
   const { isPlaying, togglePlay } = useContext(MusicContext);1
   const songTitle = "So This Is Love (feat. ConTejas).mp3";
   
   return (
-    <section className="bg-gradient-to-r from-[#ffd7af7a] to-[#965b208e]">
-      <div data-aos="fade-in" data-aos-duration="1000" className="bg-homePage bg-center bg-no-repeat bg-cover max-w-[476px] mx-auto">
+      <section  data-aos="fade-in" data-aos-duration="1000" className="bg-homePage bg-center bg-no-repeat bg-cover">
         <div className="flex flex-col items-center justify-center h-screen gap-5 pt-20 shadow-xl shadow-black">
           <h1 data-aos="zoom-in-up" data-aos-duration="1000" className="font-poppins text-[20px] font-semibold">
             The Wedding of
@@ -39,8 +39,7 @@ const HomePage = () => {
             </button>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
   );
 };
 
