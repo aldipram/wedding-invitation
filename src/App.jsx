@@ -5,9 +5,7 @@ function App() {
 
   return (
     <>
-      <div className="max-w-[500px] mx-auto">
-          <HomePage />
-      </div>
+      <HomePage />
     </>
   )
 }
