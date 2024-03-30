@@ -15,15 +15,9 @@ const Tanggal = () => {
                 </div>
             
                 <div className='pt-5 flex flex-col gap-5 justify-center items-center font-poppins'>
-                    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="1000" className='text-center'>
-                        <p className='pb-2 font-semibold font-origin text-2xl'>Akad</p>
-                        <div className='flex gap-5 items-center tracking-widest'>
-                            <p className='border-y-2 border-black px-4'>Kamis</p>
-                            <p className='text-4xl font-semibold'>11</p>
-                            <p className='border-y-2 border-black px-4'>April</p>
-                        </div>
-                        <p className='text-xl tracking-widest'>2024</p>
-                        <p>( 2 Syawal 1445 H )</p>
+                    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="1000" className='flex flex-col items-center justify-center gap-2'>
+                        <p className='font-semibold font-origin text-2xl'>Akad</p>
+                        <p className='text-xl'>2 Syawal 1445 H</p>
                         <p>08.00 wib s/d selesai</p>
                     </div>
 
